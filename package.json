@@ -1,0 +1,29 @@
+{
+  "name": "webdriver.js",
+  "version": "1.0.0",
+  "description": "Automation Framework in JavaScript with WebDriver API",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "config": "^1.16.0",
+    "mocha": "^2.3.3",
+    "selenium-webdriver": "2.53.2",
+	"babel-eslint": "^5.0.0-beta6",
+	"eslint": "^1.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayems/webdriver.js.git"
+  },
+  "author": "Syed Sayem",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sayems/webdriver.js/issues"
+  },
+  "homepage": "https://github.com/sayems/webdriver.js#readme"
+}

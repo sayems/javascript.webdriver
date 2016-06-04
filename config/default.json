@@ -1,0 +1,6 @@
+{
+  "BrowserType": "chrome",
+  "url": "http://the-internet.herokuapp.com/",
+  "explicitWaitMS": 2000,
+  "mochaTimeoutMS": 30000
+}
