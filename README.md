@@ -45,6 +45,10 @@ npm install -g mocha
 npm install -g chai
 ```
 
+```
+npm install -g eslint
+```
+
 --
 
 #### Setup IntelliJ IDEA
